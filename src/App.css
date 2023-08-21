@@ -1,0 +1,84 @@
+body, div, h1, h2, h3, p, ul, li, button {
+  margin: 0;
+  padding: 0;
+}
+h1{
+  padding: 100px;
+  background-color: grey;
+  text-align: center;
+  color: white;
+}
+h5{
+  padding: 60px;
+  background-color: grey;
+  text-align: center;
+  color: white;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.cart-quantity {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color:black;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.cart-quantity:hover {
+  background-color: lightslategray;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-card {
+  background-color: #CCD1D1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: calc(25% - 20px); 
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.product-card p {
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+.product-card button {
+  display: block;
+  margin-top: 10px;
+  background-color: #626567;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.product-card button:hover {
+  background-color: black;
+}
